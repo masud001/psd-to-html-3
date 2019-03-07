@@ -1,0 +1,469 @@
+@media (min-width: 768px){
+    /* #header{
+        position: relative;
+    } */
+
+}
+
+@media (min-width: 320px){
+
+    .main-menu {
+        display: none;
+    }
+    #banner {
+        margin-top: 100px;
+    }
+    #header .trynow-btn{
+        visibility: hidden;
+    }
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-content h1{
+        font-size: 25.5px;
+    }
+    .banner-image{
+        margin-top: 25px;
+    }
+    .banner-menu-item ul li a{
+        font-size: 7.5px;
+        padding: 6px 0px;
+    }
+    div.promo-bg::before{
+        left: -10px;
+        top:-10px;
+    }
+    .promo-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .promo-text h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .promo-text p{
+        font-size: 13px;
+    }
+    .promo::before{
+        bottom: -10px;
+        right: -10px;
+    }
+    .traker {
+        padding: 0px !important;
+    }
+    input.form-control{
+        border-radius: 20px;
+        padding: 10px 10px;
+    }
+    .promo-btn{
+        text-align: center;
+    }
+    #aboutUs {
+       background-image: none;
+    }
+    .about-me-image{
+        margin-bottom: 50px;
+    }
+    .about-me-content h1{
+        font-size: 20px;
+    }
+    .about-me-content h1,.about-me-content h3{
+        text-align: center;
+    }
+    .about-me-content ul li{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    section#payment-date-tracker {
+        padding: 25px 0px;
+    }
+    section#promo-area1 {
+        margin: 25px auto;
+    }
+    
+/*.flotting-loop > .row:nth-child(even) > .col-md-6:first-child {
+    order: 1;
+}
+.flotting-loop > .row:nth-child(even) > .col-md-6:last-child {
+    order: 2;
+}*/
+    .how-works {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .how-works h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .single-works-text {
+        margin-top: 25px;
+        text-align: center;
+    }.single-works-text h1 {
+        font-size: 19px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .single-works-image{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .footer-top ul{
+        margin-top: 15px;
+    }
+    .footer-top ul li a{
+        padding: 5px 8px;
+        font-size: 11px;
+      }
+      section#promo-area2 {
+          margin-bottom: 0px;;
+      }
+      .margin{
+          margin: 25px;
+          display: block;
+      }
+.timeline-horizontal .timeline-item {
+    min-width: 35px;
+}
+.timeline .timeline-item .timeline-badge{
+    width: 30px;
+    height: 30px;
+    line-height: 23px;
+}
+.timeline .timeline-item .timeline-badge span i::before {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    top: -11px;
+    right: -5px;
+    font-size: 7px;
+}
+ul.timeline.timeline-horizontal::before {
+    left: 9%;
+    top: 60%;
+}
+ul.timeline.timeline-horizontal::after {
+    top:60%;
+    right: 8px;
+
+}
+
+}
+
+
+/* mobile design 576 START
+===========================================
+*/
+@media (min-width: 480px) {
+.banner-menu-item ul li a{
+    font-size: 9.5px;
+    padding: 6px 0px;
+}
+.timeline-horizontal .timeline-item {
+    min-width: 60px;
+}
+.timeline .timeline-item .timeline-badge span i::before {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    top: -15px;
+    right: -15px;
+    font-size: 11px;
+}
+.timeline .timeline-item .timeline-badge{
+    width: 45px;
+
+height: 45px;
+
+line-height: 36px;
+}
+ul.timeline.timeline-horizontal::before {
+    left: 5%;
+    top: 50%;
+}
+.timeline li:nth-child(7) {
+    position: absolute;
+    right: -86px;
+    top: 18px;
+}
+ul.timeline.timeline-horizontal::after {
+    top:50%;
+    right: 8px;
+
+}
+
+}
+
+/* mobile design 576 START
+===========================================
+*/
+@media (min-width: 576px) {
+
+
+
+
+.trynow-btn {
+    padding: 12px 24px;
+    font-size: 10px;
+}
+
+.banner-content h1{
+    font-size: 37.5px;
+}
+.banner-image {
+    margin-top: 0px;
+}
+.banner-menu-item ul li a {
+    font-size: 16.5px;
+}
+.about-me-content h1 {
+    font-size: 17px;
+}
+.about-me-content h3 {
+    font-size: 14px;
+}
+.promo-text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.promo-btn{
+margin-top: 25px;
+text-align: center;
+}
+    .traker {
+        padding: 25px !important;
+    }
+input.form-control{
+    border-radius: 30px;
+    padding: 25px 19px;
+}
+
+section#payment-date-tracker {
+    padding: 0px 0px;
+}
+section#promo-area1 {
+    margin: 50px auto;
+    position: relative;
+    z-index: 1;
+}
+.how-works {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.how-works h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.single-works-text {
+    margin-top: 50px;
+    text-align: center;
+}
+.single-works-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-top{
+    text-align: center;
+}
+.footer-top ul li a{
+    padding: 10px 20px;
+  }
+  .timeline-horizontal .timeline-item {
+    min-width: 60px;
+}
+.timeline .timeline-item .timeline-badge span i::before {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    top: -15px;
+    right: -15px;
+    font-size: 11px;
+}
+.timeline .timeline-item .timeline-badge{
+    width: 45px;
+
+height: 45px;
+
+line-height: 36px;
+}
+ul.timeline.timeline-horizontal::before {
+    left: 5%;
+    top: 50%;
+}
+.timeline li:nth-child(7) {
+    position: absolute;
+    right: -86px;
+    top: 18px;
+}
+ul.timeline.timeline-horizontal::after {
+    top:50%;
+    right: 8px;
+
+}
+
+}
+
+
+@media (min-width: 768px) {
+    .burger-menu{
+        display: none;
+    }
+    .main-menu{
+        display: block !important;
+        text-align: center;
+    }
+    
+    #header .trynow-btn{
+       visibility: visible;
+    }
+    .banner-content {
+        width: 50%;
+        text-align: center;
+        text-align: left;
+    }
+    .banner-content h1 {
+        font-size: 25.5px;
+    }
+    .promo-text{
+        margin-top: 10px;
+    }
+    .promo-text h1 {
+        font-size: 16px;
+    }
+    .promo-text p {
+        font-size: 12px;
+    }
+    .traker {
+        padding: 35px !important;
+    }
+    .banner-image {
+        margin-top: -188px;
+    }
+    .banner-menu-item ul li a {
+        padding: 11px 0px;
+    }
+    button.lets-go-btn {
+        padding: 10px 20px;
+    }
+    input.form-control {
+        padding: 18px 10px;
+    }
+    .promo-btn{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .single-works-text{
+        text-align: left;
+    }
+    #aboutUs {
+        background-position: -10% -17%;
+        background-size: auto;
+        background-image:  url(../../img/about-me-bg.png);
+    }
+.flotting-loop > .row:nth-child(odd) > .col-md-6:first-child {
+    order: 12;
+    /*border:5px solid red;*/
+}
+    div.promo-bg::before{
+        left: -25px;
+        top:-25px;
+    }
+    #footer-bottom p{
+        text-align: left;
+    }
+    .footer-top ul li a{
+        padding: 5px 10px;
+      }
+    ul.footer-right-menu {
+        margin-top: 38px;
+    }
+ul.timeline.timeline-horizontal::after {
+    right: 45px;
+}
+.timeline-horizontal .timeline-item {
+    min-width: 67px;
+}
+.timeline li:nth-child(7) {
+
+    right: -89px;
+}
+
+}
+
+
+
+@media (min-width: 992px) {
+.main-menu ul li a {
+    font-size: 12.5px;
+}
+.banner-content {
+
+    text-align: left;
+}
+
+.banner-content h1{
+    font-size: 37.5px;
+}
+.about-me-content h1 {
+    font-size: 29px;
+}
+.banner-image {
+    margin-top: -200px;
+}
+.timeline-horizontal .timeline-item {
+    min-width: 107px;
+}
+ul.timeline.timeline-horizontal::after {
+    right: 68px;
+}
+.timeline li:nth-child(7) {
+
+    right: -57px;
+}
+
+}
+
+@media (min-width: 1200px) {
+.timeline-horizontal .timeline-item {
+    min-width: 122px;
+}
+    .about-me-content ul li {
+        font-size: 18px;
+    }
+    button.lets-go-btn {
+        padding: 15px 39px;
+    }
+    input.form-control {
+        padding: 25px 19px;
+    }
+    .promo-btn{
+        margin-top: -3px;
+        text-align: center;
+    }
+    #footer-bottom{
+        text-align: left;
+    }
+    ul.footer-right-menu{
+        margin-top: 26px;
+    }
+    .banner-content {
+        width: 50%;
+        text-align: left;
+    }
+
+ul.timeline.timeline-horizontal::after {
+    
+    right: 98px;
+}
+.timeline li:nth-child(7) {
+
+    right: -55px;
+}
+
+}
